@@ -86,4 +86,98 @@ nav ul li{
     font-weight: 600;
 }
 
+/* card section style */
+.future{
+    margin: 343px 136px 68px 136px;
+}
+.future-vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
 
+.section-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: left;
+}
+.section-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.future-cards{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-1{
+    padding: 27px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    max-width: 348px;
+}
+.card-2{
+    padding: 27px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    max-width: 348px;
+}
+.card-3{
+    padding: 27px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);;
+    max-width: 348px;
+}
+
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 700;    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin: 12px 0;
+}
+
+.card-btn{
+    padding: 9px 17px 9px 17px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    margin: 10px 0;
+}
+
+.btn1{
+    background: rgb(84, 144, 245);
+}
+.btn2{
+    background: rgb(9, 161, 92);
+}
+.btn3{
+    background: rgb(255, 194, 57);
+}
