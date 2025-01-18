@@ -49,9 +49,41 @@ nav ul li{
     background: rgb(198, 228, 214);
     margin: 68px 136px;
     padding: 68px 85px;
+    gap: 64px;
 }
 .banner-content{
-    margin-right: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 622px;
+    
+}
+.banner-subtitle{
+    Font: Fira Sans;
+    font-weight:500px;
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.banner-title{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.btn-secondery{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    box-sizing: border-box;
+    border: none;
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
