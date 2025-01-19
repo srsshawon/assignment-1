@@ -10,6 +10,19 @@ body{
     background-color: rgb(248, 241,241);
 }
 
+/* hover effects */
+
+.card-1:hover, .card-2:hover, .card-3:hover{
+    background-color: white;
+}
+.donate-btn:hover{
+    background-color: lightblue;
+}
+
+.btn-primary:hover, .btn-secondery:hover, .card-btn:hover, .news-btn:hover, .newsletter-btn:hover{
+    transform: scale(1.1);
+}
+
 /* shared style */
 .btn-primary{
     box-sizing: border-box;
@@ -333,3 +346,74 @@ nav ul li{
 .con-btn{
     padding: 14px 28px;
 }
+
+/* newsletter section style */
+
+.newsletter{
+    margin: 68px 136px 68px 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    padding: 68px 85px 68px 85px;
+    margin: 68px 136px 68px 136px;
+    border-radius: 20px;
+    background: rgb(198, 228, 214);
+}
+
+.newsletter-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+
+.newsletter-input{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -50px;
+}
+#email{
+    width: 510px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px 34px 15px 34px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    background: rgb(255, 255, 255);
+}
+
+.newsletter-btn{
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 14px 28px 14px 28px;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+}
+.newsletter-motto{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
